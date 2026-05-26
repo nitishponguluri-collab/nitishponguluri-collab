@@ -29,11 +29,4 @@ Healthcare cloud means HIPAA and SOC2 aren't checkboxes before a release — the
 | [terraform-aws-modules](https://github.com/nitishponguluri-collab/terraform-aws-modules) | Modules with sensible defaults, not just thin wrappers |
 | [eks-platform-blueprint](https://github.com/nitishponguluri-collab/eks-platform-blueprint) | EKS setup that gives teams guardrails without getting in their way |
 | [devsecops-pipeline-templates](https://github.com/nitishponguluri-collab/devsecops-pipeline-templates) | Security gates that don't break velocity |
-
----
-
-### Consulting
-
-I take on work with startups that need a real cloud foundation without the enterprise overhead. If you're at the "we need to do this right before it becomes a problem" stage, that's the conversation I'm good at.
-
-Reach me on [LinkedIn](https://www.linkedin.com/in/nitish-chowdari-ponguluri).
+| [aws-mlops-platform](https://github.com/nitishponguluri-collab/aws-mlops-platform) | SageMaker pipelines, MLflow tracking, Bedrock access with per-team IAM scoping — the AI/MLOps layer on top of the platform |
