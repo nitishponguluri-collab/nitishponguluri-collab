@@ -2,7 +2,7 @@
 
 **Senior Cloud Platform Architect &nbsp;·&nbsp; Hyderabad, India**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nitish--chowdari--ponguluri-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitish-chowdari-ponguluri)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nitishponguluri-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitishponguluri)&nbsp;
 [![AWS SAP](https://img.shields.io/badge/AWS_Solutions_Architect-Professional_%7C_valid_2029-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
 
 ---
@@ -13,7 +13,7 @@ I've spent 15 years making cloud infrastructure boring — in the best way possi
 
 ### ValueLabs
 
-I owned AWS infrastructure across 8 accounts. Built the multi-account landing zone from scratch — account vending, SCPs, network topology, guardrails that actually hold under pressure. Put EKS platforms into production with GitOps workflows that teams adopted without a training deck. Wrote the Terraform modules we still use. When I left, the platform ran itself most days.
+I've run hybrid AWS and Azure environments — eight AWS accounts, AKS clusters alongside EKS, and everything wired together with Terraform and GitOps. Built the multi-account landing zone from scratch — account vending, SCPs, network topology, guardrails that actually hold under pressure. Put EKS platforms into production with GitOps workflows that teams adopted without a training deck. Wrote the Terraform modules we still use. When I left, the platform ran itself most days.
 
 ### Optum
 
@@ -30,3 +30,4 @@ Healthcare cloud means HIPAA and SOC2 aren't checkboxes before a release — the
 | [eks-platform-blueprint](https://github.com/nitishponguluri-collab/eks-platform-blueprint) | EKS setup that gives teams guardrails without getting in their way |
 | [devsecops-pipeline-templates](https://github.com/nitishponguluri-collab/devsecops-pipeline-templates) | Security gates that don't break velocity |
 | [aws-mlops-platform](https://github.com/nitishponguluri-collab/aws-mlops-platform) | SageMaker pipelines, MLflow tracking, Bedrock access with per-team IAM scoping — the AI/MLOps layer on top of the platform |
+| [azure-platform-blueprint](https://github.com/nitishponguluri-collab/azure-platform-blueprint) | AKS platform with Azure AD integration, ArgoCD GitOps, Prometheus, and AGIC — the Azure equivalent of the EKS blueprint |
