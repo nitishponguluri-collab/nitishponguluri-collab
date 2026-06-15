@@ -1,33 +1,55 @@
 # Nitish Chowdari Ponguluri
 
-**Senior Cloud Platform Architect &nbsp;·&nbsp; Hyderabad, India**
+**Senior Data Engineer** · Hyderabad, India
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nitishponguluri-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitishponguluri)&nbsp;
-[![AWS SAP](https://img.shields.io/badge/AWS_Solutions_Architect-Professional_%7C_valid_2029-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
-
----
-
-I've spent 15 years making cloud infrastructure boring — in the best way possible. Boring means your team ships without opening tickets to the platform team.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nitishponguluri-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/nitishponguluri)
+[![AWS Solutions Architect](https://img.shields.io/badge/AWS_Solutions_Architect-Professional_|_valid_2029-FF9900?style=flat&logo=amazonaws)](https://www.credly.com/badges/d82a6882-0f9c-4f43-9c0b-80e80883f95e/public_url)
 
 ---
 
-### ValueLabs
-
-I've run hybrid AWS and Azure environments — eight AWS accounts, AKS clusters alongside EKS, and everything wired together with Terraform and GitOps. Built the multi-account landing zone from scratch — account vending, SCPs, network topology, guardrails that actually hold under pressure. Put EKS platforms into production with GitOps workflows that teams adopted without a training deck. Wrote the Terraform modules we still use. When I left, the platform ran itself most days.
-
-### Optum
-
-Healthcare cloud means HIPAA and SOC2 aren't checkboxes before a release — they're real audit environments with real consequences if you get it wrong. That shaped how I think about compliance: architect it in from day one, don't layer it on after the fact.
+I've spent 15 years building data infrastructure and making sure the
+numbers leadership sees actually match what happened. That means owning
+the full stack — pipelines that ingest and transform the data, and the
+Power BI and Tableau layers that deliver it. Most teams split these into
+two people. I do both.
 
 ---
 
-### Featured repos
+## ValueLabs
+
+Running data engineering across healthcare and finance — Snowflake
+platform design with Snowpipe and CDC ingestion, dbt transformation
+layers replacing ad-hoc SQL, Power BI governance frameworks and DAX
+optimisation, Tableau Server automation via Python, and AWS Glue +
+PySpark ETL pipelines wired together with Airflow. Terraform provisions
+everything: S3, IAM, RDS, Glue jobs, Snowflake configs across
+multi-account AWS environments. When a pipeline breaks at 2am, the
+runbook exists and the alert fires to the right person.
+
+## Optum (UnitedHealth Group)
+
+Healthcare data means HIPAA and SOC2 aren't checkboxes before a release
+— they're real audit environments with real consequences if you get it
+wrong. Six years building ETL pipelines on healthcare claims and
+eligibility data, Power BI and Tableau reporting infrastructure from
+scratch, and SSIS and Alteryx workflows at enterprise scale. Supported
+multiple audit cycles with no remediation findings on data
+infrastructure. That shaped how I think about compliance: architect it
+in from day one, don't layer it on after the fact.
+
+---
+
+## Featured repos
 
 | Repo | What it is |
-|---|---|
-| [aws-multi-account-landing-zone](https://github.com/nitishponguluri-collab/aws-multi-account-landing-zone) | The landing zone pattern I'd build again if I had to start over |
-| [terraform-aws-modules](https://github.com/nitishponguluri-collab/terraform-aws-modules) | Modules with sensible defaults, not just thin wrappers |
-| [eks-platform-blueprint](https://github.com/nitishponguluri-collab/eks-platform-blueprint) | EKS setup that gives teams guardrails without getting in their way |
-| [devsecops-pipeline-templates](https://github.com/nitishponguluri-collab/devsecops-pipeline-templates) | Security gates that don't break velocity |
-| [aws-mlops-platform](https://github.com/nitishponguluri-collab/aws-mlops-platform) | SageMaker pipelines, MLflow tracking, Bedrock access with per-team IAM scoping — the AI/MLOps layer on top of the platform |
-| [azure-platform-blueprint](https://github.com/nitishponguluri-collab/azure-platform-blueprint) | AKS platform with Azure AD integration, ArgoCD GitOps, Prometheus, and AGIC — the Azure equivalent of the EKS blueprint |
+|------|-----------|
+| [snowflake-dbt-pipeline](https://github.com/nitishponguluri-collab/snowflake-dbt-pipeline) | Production Snowflake + dbt healthcare data warehouse — star schema, incremental models, key-pair auth, CI/CD |
+| [power-bi-automation](https://github.com/nitishponguluri-collab/power-bi-automation) | Python automation for Power BI REST API — dataset refresh, deployment pipelines, 90% effort reduction |
+| [tableau-python-automation](https://github.com/nitishponguluri-collab/tableau-python-automation) | Tableau Server multi-client workbook generation and publishing via Python TSC library |
+| [aws-multi-account-landing-zone](https://github.com/nitishponguluri-collab/aws-multi-account-landing-zone) | Production AWS multi-account data platform architecture — Organizations, SCPs, HIPAA compliance |
+| [terraform-aws-modules](https://github.com/nitishponguluri-collab/terraform-aws-modules) | Terraform modules for data platform infrastructure — VPC, RDS, Glue, IAM, SageMaker, S3 |
+| [aws-mlops-platform](https://github.com/nitishponguluri-collab/aws-mlops-platform) | SageMaker + MLflow + Bedrock MLOps platform with feature engineering pipelines |
+
+---
+
+📧 nitishponguluri@gmail.com
