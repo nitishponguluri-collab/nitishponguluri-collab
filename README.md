@@ -9,7 +9,7 @@
 
 I've spent 15 years building data infrastructure and making sure the
 numbers leadership sees actually match what happened. That means owning
-the full stack — pipelines that ingest and transform the data, and the
+the full stack pipelines that ingest and transform the data, and the
 Power BI and Tableau layers that deliver it. Most teams split these into
 two people. I do both.
 
@@ -17,19 +17,12 @@ two people. I do both.
 
 ## ValueLabs
 
-Running data engineering across healthcare and finance — Snowflake
-platform design with Snowpipe and CDC ingestion, dbt transformation
-layers replacing ad-hoc SQL, Power BI governance frameworks and DAX
-optimisation, Tableau Server automation via Python, and AWS Glue +
-PySpark ETL pipelines wired together with Airflow. Terraform provisions
-everything: S3, IAM, RDS, Glue jobs, Snowflake configs across
-multi-account AWS environments. When a pipeline breaks at 2am, the
-runbook exists and the alert fires to the right person.
+Running data engineering across healthcare and finance. Snowflake platform design with Snowpipe and CDC ingestion, dbt transformation layers replacing ad-hoc SQL, Power BI governance frameworks and DAX optimisation, Tableau Server automation via Python, and AWS Glue and PySpark ETL pipelines wired together with Airflow. When a pipeline breaks at 2am, the runbook exists and the alert fires to the right person.
 
 ## Optum (UnitedHealth Group)
 
 Healthcare data means HIPAA and SOC2 aren't checkboxes before a release
-— they're real audit environments with real consequences if you get it
+they're real audit environments with real consequences if you get it
 wrong. Six years building ETL pipelines on healthcare claims and
 eligibility data, Power BI and Tableau reporting infrastructure from
 scratch, and SSIS and Alteryx workflows at enterprise scale. Supported
@@ -43,12 +36,9 @@ in from day one, don't layer it on after the fact.
 
 | Repo | What it is |
 |------|-----------|
-| [snowflake-dbt-pipeline](https://github.com/nitishponguluri-collab/snowflake-dbt-pipeline) | Production Snowflake + dbt healthcare data warehouse — star schema, incremental models, key-pair auth, CI/CD |
-| [power-bi-automation](https://github.com/nitishponguluri-collab/power-bi-automation) | Python automation for Power BI REST API — dataset refresh, deployment pipelines, 90% effort reduction |
+| [snowflake-dbt-pipeline](https://github.com/nitishponguluri-collab/snowflake-dbt-pipeline) | Production Snowflake + dbt healthcare data warehouse star schema, incremental models, key-pair auth, CI/CD |
+| [power-bi-automation](https://github.com/nitishponguluri-collab/power-bi-automation) | Python automation for Power BI REST API dataset refresh, deployment pipelines, 90% effort reduction |
 | [tableau-python-automation](https://github.com/nitishponguluri-collab/tableau-python-automation) | Tableau Server multi-client workbook generation and publishing via Python TSC library |
-| [aws-multi-account-landing-zone](https://github.com/nitishponguluri-collab/aws-multi-account-landing-zone) | Production AWS multi-account data platform architecture — Organizations, SCPs, HIPAA compliance |
-| [terraform-aws-modules](https://github.com/nitishponguluri-collab/terraform-aws-modules) | Terraform modules for data platform infrastructure — VPC, RDS, Glue, IAM, SageMaker, S3 |
-| [aws-mlops-platform](https://github.com/nitishponguluri-collab/aws-mlops-platform) | SageMaker + MLflow + Bedrock MLOps platform with feature engineering pipelines |
 
 ---
 
