@@ -36,8 +36,10 @@ in from day one, don't layer it on after the fact.
 
 | Repo | What it is |
 |------|-----------|
-| [snowflake-dbt-pipeline](https://github.com/nitishponguluri-collab/snowflake-dbt-pipeline) | Production Snowflake + dbt healthcare data warehouse star schema, incremental models, key-pair auth, CI/CD |
-| [power-bi-automation](https://github.com/nitishponguluri-collab/power-bi-automation) | Python automation for Power BI REST API dataset refresh, deployment pipelines, 90% effort reduction |
+| [databricks-medallion-pipeline](https://github.com/nitishponguluri-collab/databricks-medallion-pipeline) | Bronze, silver, gold architecture on Databricks, Unity Catalog governance, SCD Type 2 merge, Z-order optimization |
+| [adf-multi-source-ingestion](https://github.com/nitishponguluri-collab/adf-multi-source-ingestion) | Metadata driven ADF pipeline, new sources onboard via a config row, not a pipeline rebuild |
+| [snowflake-dbt-pipeline](https://github.com/nitishponguluri-collab/snowflake-dbt-pipeline) | Production Snowflake and dbt healthcare data warehouse, star schema, incremental models, key-pair auth, CI/CD |
+| [power-bi-automation](https://github.com/nitishponguluri-collab/power-bi-automation) | Python automation for Power BI REST API, dataset refresh, deployment pipelines, 90 percent effort reduction |
 | [tableau-python-automation](https://github.com/nitishponguluri-collab/tableau-python-automation) | Tableau Server multi-client workbook generation and publishing via Python TSC library |
 
 ---
