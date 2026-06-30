@@ -21,7 +21,7 @@ Running data engineering across healthcare and finance. Snowflake platform desig
 
 ## Optum (UnitedHealth Group)
 
-Healthcare data means HIPAA and SOC2 aren't checkboxes before a release
+Healthcare data means HIPAA and SOC2 aren't checkboxes before a release,
 they're real audit environments with real consequences if you get it
 wrong. Six years building ETL pipelines on healthcare claims and
 eligibility data, Power BI and Tableau reporting infrastructure from
